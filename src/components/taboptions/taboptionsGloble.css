@@ -1,0 +1,126 @@
+.visible {
+  display: block !important;
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 300ms;
+}
+
+.hide {
+  display: none !important;
+  opacity: 0;
+  transition: visibility 0s linear 300ms, opacity 300ms;
+}
+
+.accountDetails {
+  padding: 20px 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profilepic {
+  flex: 0.2;
+}
+
+.info {
+  flex: 0.6;
+}
+.menu {
+  flex: 0.2;
+  justify-self: end;
+}
+
+.card {
+  margin: 20px 0;
+}
+
+.position-info {
+  display: flex;
+  padding: 10px 0;
+}
+
+.lable {
+  flex: 0.4;
+}
+
+.preference {
+  flex: 0.6;
+  font-weight: 300;
+}
+
+.profession-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+.ans-Details {
+  padding: 40px 0;
+  display: flex;
+  align-items: flex-start;
+}
+
+.btns {
+  margin: 10px 0;
+  background: rgb(220, 224, 228);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.btns-inner {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btns-inner:hover {
+  background: white;
+  padding: 10px;
+}
+
+.show-hide {
+  color: red;
+}
+
+CardMedia {
+  background-position: center center;
+  background-size: cover;
+}
+
+.dates {
+  display: flex;
+  justify-content: space-between;
+  margin: 4px 0;
+}
+
+.open {
+  color: green;
+  flex: 0.6;
+}
+.close {
+  color: red;
+  flex: 0.6;
+}
+
+.about-operating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.location-icon {
+  flex: 0.2;
+}
+
+.about-location {
+  flex: 0.8;
+}
+
+.ago {
+  text-align: right;
+  margin: 2px 0;
+  font-weight: 300;
+  color: rgb(230, 177, 4);
+}

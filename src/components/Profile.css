@@ -1,0 +1,85 @@
+.main {
+  height: 100%;
+  display: flex;
+  margin: 30px 10px;
+  padding: 10px 40px;
+  flex-wrap: wrap;
+}
+
+.profileImg {
+  flex: 0.3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profileImg div {
+  margin: 8px 0;
+}
+
+.follow {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.icon {
+  background: #e2e3e5;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.attherate,
+.hashtags {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.profileinfo {
+  flex: 0.7;
+  display: flex;
+  flex-direction: column;
+}
+.location {
+  display: flex;
+  align-items: center;
+  font-weight: 300;
+}
+
+.knowmore {
+  width: 50%;
+}
+.profileinfo div {
+  margin: 10px 0;
+}
+
+.quickbooks {
+  display: flex;
+  align-items: center;
+}
+
+.joined,
+.dob {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.submain {
+  display: flex;
+}
+
+.tabs {
+  flex: 0.7;
+}
+.events {
+  flex: 0.3;
+  padding: 0 10px;
+  border-left: 1px solid rgb(190, 190, 190);
+}
